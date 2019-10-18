@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-sm text-left">
           <!-- Change this section to whatever you would like -->
-          <h1>COCO Annotator</h1>
+          <img alt="Vue logo" src="../assets/logo.png" />
           <hr />
           <div v-if="totalUsers === 0">
             <h3>You have successfully installed COCO Annotator!</h3>
