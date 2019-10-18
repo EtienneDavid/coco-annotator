@@ -4,8 +4,8 @@
     <i class="fa fa-circle" :style="{ color: color }" style="padding: 0 10px; font-size: 10px" v-tooltip="backendStatus"></i>
 
     <RouterLink class="navbar-brand" to="/">
-      <strong>{{ name }}</strong>
-      <span class="subscript">{{ version }}</span>
+          <img alt="Vue logo" src="../assets/logo-banner.png" />
+
     </RouterLink>
 
     <button

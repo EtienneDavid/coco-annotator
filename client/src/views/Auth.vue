@@ -11,7 +11,7 @@
           <img alt="Vue logo" src="../assets/logo.png" />
           <hr />
           <div v-if="totalUsers === 0">
-            <h3>You have successfully installed COCO Annotator!</h3>
+            <h3>You have successfully installed CAPTE Annotator!</h3>
             <p>Use the registeration form to create an admin account</p>
             <p>
               If you have any questions please checkout the
@@ -24,9 +24,11 @@
           </div>
           <div v-else>
             <p>
-              COCO Annotator is a web-based image annotation tool designed for
+              CAPTE Annotator is a web-based image annotation tool designed for
               versatility and efficiently label images to create training data
-              for image localization and object detection.
+              for image localization and object detection. The annotation part 
+              is entirely based on COCO annotator but pre annotation tools for
+              phenotyping are arriving !
               <br /><br />
               Login to create a datasets.
               <br /><br />
