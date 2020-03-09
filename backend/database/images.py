@@ -19,7 +19,7 @@ class ImageModel(DynamicDocument):
     PATTERN = (".gif", ".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".GIF", ".PNG", ".JPG", ".JPEG", ".BMP", ".TIF", ".TIFF")
 
     # Set maximum thumbnail size (h x w) to use on dataset page
-    MAX_THUMBNAIL_DIM = (1024, 1024)
+    MAX_THUMBNAIL_DIM = (24, 24)
 
     # -- Private
     _dataset = None
@@ -133,8 +133,7 @@ class ImageModel(DynamicDocument):
             os.remove(path)
 
     def generate_thumbnail(self):
-        image = self().draw(color_by_category=True, bbox=False)
-        return Image.fromarray(image)
+        return None
 
     def flag_thumbnail(self, flag=True):
         """
